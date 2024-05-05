@@ -29,7 +29,7 @@ btnLoad.onclick = () => {
 
         //история запросов
 
-        res = await fetch(`http://localhost:3000/api/requests`)
+        res = await fetch(`/api/requests`)
         resJson = await res.json()
         
         let hTbl = document.getElementById('tblRec')
