@@ -6,7 +6,7 @@ require('dotenv').config()
 
 const mongoose = require('mongoose')
 //mongoose.connect('mongodb://127.0.0.1:27017/meteoDB')
-mongoose.connect(process.env.DB)
+mongoose.connect(process.env.MONGODB_URI)
 const weatherRequest = mongoose.model('weatherRequest', { 
   city          : String,
   lat           : String,
