@@ -88,3 +88,12 @@ app.get('/api/requests', async (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on http://localhost:${port}`)
 })
+
+app.get('/api/test', async (req, res) => {
+  
+  res.json({
+
+      'city' : 'petr'
+  })
+
+})
