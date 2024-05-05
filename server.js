@@ -86,5 +86,5 @@ app.get('/api/requests', async (req, res) => {
   })
 
 app.listen(port, () => {
-  //console.log(`Example app listening on http://localhost:${port}`)
+  console.log(`Example app listening on http://localhost:${port}`)
 })
